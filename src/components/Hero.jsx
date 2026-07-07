@@ -26,7 +26,9 @@ const Hero = () => {
             </a>
           </div>
         </section>
-        <img src={heroImg} alt='' />
+        <article className='hidden sm:block'>
+          <img src={heroImg} alt='' />
+        </article>
       </div>
     </div>
   )

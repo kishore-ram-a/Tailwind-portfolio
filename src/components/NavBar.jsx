@@ -12,7 +12,7 @@ const NavBar = () => {
             return (
               <a
                 className='capitalize text-lg tracking-wide hover:text-emerald-600 hover:font-bold '
-                href='item.href'
+                href={item.href}
                 key={item.id}
               >
                 {item.text}
